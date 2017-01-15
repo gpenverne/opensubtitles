@@ -14,7 +14,7 @@ parameters:
 Load the bundle from your AppKernel.php file:
 ```
 $bundles = [
-    new Gpenverne\OpenSubtitlesBundle(),
+    new Gpenverne\OpenSubtitlesBundle\OpenSubtitlesBundle(),
     ...,
 ];
 ```
