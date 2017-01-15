@@ -20,7 +20,6 @@
             "Gpenverne\\OpenSubtitlesBundle\\": ""
         }
     },
-    "target-dir": "Gpenverne\\OpenSubtitlesBundle",
     "config": {
         "bin-dir": "bin"
     }
