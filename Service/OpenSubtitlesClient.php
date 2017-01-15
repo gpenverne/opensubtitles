@@ -41,6 +41,7 @@ class OpenSubtitlesClient
         $this->client = Client::create([
             'username' => $this->username,
             'password' => $this->password,
+            'useragent' => $this->userAgent,
         ]);
     }
 
@@ -77,7 +78,7 @@ class OpenSubtitlesClient
             $params['sublanguageid'] = $this->language;
         }
 
-        return $this->client->searchSubtitles($params);
+        return $this->client->searchSubtitles([$params]);
     }
 
     /**
