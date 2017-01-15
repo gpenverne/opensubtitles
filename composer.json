@@ -2,7 +2,7 @@
     "name": "gpenverne/opensubtitles",
     "type": "library",
     "description": "A bundle for kminek/open-subtitles",
-    "keywords": ["opensubtitles", "api"],
+    "keywords": ["opensubtitles", "api", "subtitles"],
     "license": "MIT",
     "authors": [{
         "name": "Gpenverne",

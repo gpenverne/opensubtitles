@@ -1,5 +1,6 @@
 # opensubtitles
-This repo provides a service for symfony3 to handle the kminek/open-subtitles client
+This repo provides a service for symfony3 to handle the kminek/open-subtitles client.
+This client allow to fetch subtitles from opensubtitles.org
 
 ## Config/Parameters
 Set your parameters.yml with your custom credentials:
