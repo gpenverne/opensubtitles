@@ -11,8 +11,10 @@
     "require": {
         "php": ">=5.4",
         "symfony/dependency-injection": "*",
-        "kminek/OpenSubtitles": "*"
+        "kminek/open-subtitles": "dev-master"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-0": {
             "Gpenverne\\OpenSubtitlesBundle": ""
