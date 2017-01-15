@@ -1,0 +1,25 @@
+{
+    "name": "gpenverne/opensubtitles",
+    "type": "library",
+    "description": "A bundle for kminek/open-subtitles",
+    "keywords": ["opensubtitles", "api"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Gpenverne",
+        "homepage": "https://github.com/gpenverne"
+    }],
+    "require": {
+        "php": ">=5.4",
+        "symfony/dependency-injection": "*",
+        "kminek/OpenSubtitles": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gpenverne\\OpenSubtitlesBundle": ""
+        }
+    },
+    "target-dir": "Gpenverne\\OpenSubtitlesBundle",
+    "config": {
+        "bin-dir": "bin"
+    }
+}

@@ -1,0 +1,11 @@
+parameters:
+    opensubtitles.username: ~
+    opensubtitles.password: ~
+    opensubtitles.user_agent: OSTestUserAgentTemp
+services:
+    opensubtitles_api:
+        class: Gpenverne\OpenSubtitlesBundle\Service\OpenSubtitlesClient
+        arguments:
+            - "%opensubtitles.username%"
+            - "%opensubtitles.password%"
+            - "%opensubtitles.user_agent%"
