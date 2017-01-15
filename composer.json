@@ -16,11 +16,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Gpenverne\\OpenSubtitlesBundle\\": ""
         }
-    },
-    "config": {
-        "bin-dir": "bin"
     }
 }
