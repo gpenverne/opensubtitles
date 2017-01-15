@@ -1,6 +1,6 @@
 <?php
 
-namespace Gpenverne\OpenSubtitles\Service;
+namespace Gpenverne\OpenSubtitlesBundle;
 
 use Gpenverne\OpenSubtitlesBundle\DependencyInjection\OpenSubtitlesExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;

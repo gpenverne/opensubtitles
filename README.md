@@ -2,11 +2,20 @@
 This repo provides a service for symfony3 to handle the kminek/open-subtitles client
 
 ## Config/Parameters
+Set your parameters.yml with your custom credentials:
 ```
 parameters:
     opensubtitles.username: ~
     opensubtitles.password: ~
     opensubtitles.user_agent: OSTestUserAgentTemp
+```
+
+Load the bundle from your AppKernel.php file:
+```
+$bundles = [
+    new Gpenverne\OpenSubtitlesBundle(),
+    ...,
+];
 ```
 
 ## Use it
