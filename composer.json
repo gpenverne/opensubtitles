@@ -17,8 +17,9 @@
     "prefer-stable": true,
     "autoload": {
         "psr-0": {
-            "Gpenverne\\OpenSubtitlesBundle": ""
-        }
+            "Gpenverne\\OpenSubtitlesBundle\\": ""
+        },
+        "psr-4": { "Gpenverne\\OpenSubtitlesBundle\\": "" },
     },
     "target-dir": "Gpenverne\\OpenSubtitlesBundle",
     "config": {
