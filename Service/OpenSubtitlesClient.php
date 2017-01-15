@@ -60,7 +60,7 @@ class OpenSubtitlesClient
     /**
      * @param  string|array|int $params
      *
-     * @return mixed
+     * @return array
      */
     public function getSubtitles($params)
     {
@@ -78,7 +78,7 @@ class OpenSubtitlesClient
             $params['sublanguageid'] = $this->language;
         }
 
-        return $this->client->searchSubtitles([$params]);
+        return $this->client->searchSubtitles([$params])->toArray()['data'];
     }
 
     /**
