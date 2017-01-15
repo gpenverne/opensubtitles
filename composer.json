@@ -18,9 +18,6 @@
     "autoload": {
         "psr-0": {
             "Gpenverne\\OpenSubtitlesBundle\\": ""
-        },
-        "psr-4": {
-            "Gpenverne\\OpenSubtitlesBundle\\": ""
         }
     },
     "target-dir": "Gpenverne\\OpenSubtitlesBundle",
